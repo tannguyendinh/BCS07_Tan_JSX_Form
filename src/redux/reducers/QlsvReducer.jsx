@@ -1,7 +1,9 @@
 // import React from 'react'
 
 const stateDefaul = {
-  mangSinhVien: [{ maSV: 1, hoTen: "Tân", soDT: "999", email: "abc@c.com" }],
+  mangSinhVien: [
+    // { maSV: 1, hoTen: "Tân", soDT: "999", email: "abc@c.com" }
+  ],
 };
 
 export const QlsvReducer = (state = stateDefaul, action) => {
